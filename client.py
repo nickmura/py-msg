@@ -31,6 +31,7 @@ print("[+] Connected.")
 # prompt the client for a name
 name = input("name: ")
 
+
 def listen_for_messages():
     while True:
         message = new_socket.recv(1024).decode()
